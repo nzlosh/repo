@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Date: Mon, 22 Aug 2022 14:03:55 +0000
+Archive: stable
+Codename: focal
+Component: main
+Origin: github.com/nzlosh
+Label: nzlosh Personal Packages Archive
+Architecture: amd64
+SHA256: 1a0136b07c2068ae890f0d2e7ae588494bfbda5e9ccc2ace9a327d6a578a474c 550 main/binary-amd64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEECR3qG2WlRAPBR5P3ILUxCybkMv4FAmMDjM4RHG56bG9zaEB5
+YWhvby5jb20ACgkQILUxCybkMv6EiA//UeEZqUSq1o2ocyzV6vGgih0stFUUhXyU
+UK2IMF+gRdroUTnngpnSV//oGEz/qThFSkUzNCq7mOHgIcE7B1aok1lG6E4kHQgA
+pkHjYhzXRcnsCm0iqc/aTI22zs1Y2W/oxT1DziTElRtZ7Kmt+4oY/chJMgiLIiCF
+zWT81P/AlbxjSnqopGVuvGnbZqnMt7x7FewNuO7jDVjghzmIen0GKRpQtlRGEr0S
+g80f1MnilQUtFyEmFLqtV7VTjeqWNv/uDxA7YhXZeCR8oIIjicjalYFOmKeN5sSD
+kvCIRPYzrA+UxnzZnBd7nyra/5VdZbrCoNqEnW9eKrrfi48UHfl8biHSf1kccced
+3FTYjOEv69J+UjAmmJT9+cbVdhzDw2QD9GBALiVl9oASzfhPYu1kwef/+VguvZVo
+DGCqB+IZ6YZZyu5LaYheYb63xZoWY9MLLhiUSpl+K2EpVpvp8OWnNqkPaxoXFmQ0
+E3QB44zAu8PcqfkwtaSB4M24NVtbwqhsvbdrIlp6GVnjlml59XpOQ/Kw6lMOKK/3
+eljy+7xRJ+9f4R2Gb/Nn52Yr9oGAs8poUDJa3HOqh0vo89Fy4IqPAE5Ybr9y58Px
+uoOTlnP0IWm+hNXb4Fru2Tl+oxdWd0+XwgsDJKwitXOLikYLorK98y8JJ+PX7It0
+G+2adpwFMiE=
+=MJn8
+-----END PGP SIGNATURE-----

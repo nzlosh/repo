@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Date: Mon, 22 Aug 2022 14:03:58 +0000
+Archive: stable
+Codename: jammy
+Component: main
+Origin: github.com/nzlosh
+Label: nzlosh Personal Packages Archive
+Architecture: amd64
+SHA256: 3c16dd2ac14ca98fd45536679d65cbd881b45cc833a41e9f2f8f6ce6c71b4bf5 552 main/binary-amd64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEECR3qG2WlRAPBR5P3ILUxCybkMv4FAmMDjM8RHG56bG9zaEB5
+YWhvby5jb20ACgkQILUxCybkMv6vphAAs04fIkYuaOd/cIiZixJrsXTGvPJMBxqy
+M+OHCgxQ/3WOnWqxlpxKk1s6eWlnGT2sLDaAOaZZtnD8Jbh14hS5qbTPp+8hEt9+
+ESwLupyyxP6Iu+hH/mknJi+V6TEGA7qYz1dLZozompcZYlZVVwBRyKsmfx1YMls8
+ts2Z0w0zFz3j/bZQC7KHzPJoxWRvawSM51XWAoAHLSRSRURrUny07GbzypL+HESr
+2wJ+2EiHbo7Y1Mk3eQcjJSudLRDxODmWI6U7VUD+Dxe5qmC/P37PDRLGOwmcM/MD
+/5CICBmmXqzuMkcGqWnf6iWDu/spNgLPxY8U+0f2AdYIeCf1r+d0TI8cTkwB7Nbf
+vfmz8EngdnQG15HEwDm+lEG9wiTx2DydiJnNqEOAC0WF2J+TqILUJtzK9thAL8H+
+ea+cbqqzac7adTuYUfdsg80L4dOLJt8UMoEnUlJE/w3G/Xfpo1O0aZde4yksBWYC
+MM8pO0IJBUNdPUyYpzYmhketfvHB07u3lWpl9xZvi+BuV8fH+e0gNlYwd+wiaEf0
+kToqhuF+z43Mf0rYqZB545W1hyYcxBFyYO84ImSDEA3RuuyAKTWNoyybX06eoFi8
+xGGR21jyBmH7+ouxN2t4eylE+DbMDaOQTePt1pchMGIeyYsRQqm+LPlGmdGbN6+b
+nE5/cDp80B8=
+=xwWW
+-----END PGP SIGNATURE-----

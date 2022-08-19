@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Date: Mon, 22 Aug 2022 14:03:51 +0000
+Archive: stable
+Codename: bionic
+Component: main
+Origin: github.com/nzlosh
+Label: nzlosh Personal Packages Archive
+Architecture: amd64
+SHA256: 8a566c6f6c45bdfb569a56c4f9b1b8b29ff12b4e236a7be67ee8abbf90370245 551 main/binary-amd64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEECR3qG2WlRAPBR5P3ILUxCybkMv4FAmMDjMsRHG56bG9zaEB5
+YWhvby5jb20ACgkQILUxCybkMv7sMRAAxpA1C/6YqjxITLBxM+mCpegiM4PhkQsY
+tfy/ZJfNr4yTmtM3z0g8AnONXSxNYMmmKZdhfdP+gghSKi2tCne/kRp8phuUjNiM
+HT31w4vWpnEseuhO9kQuSfnoPnjW/STFPUPE226Uwiy0OvKpLU8yHQSHfmr7ol3d
+8Ld/E+a6Rb3twU3QpUf1d72b+T5Uuv9gPuPhKTY4g6MFZGSCLeCyL57nFDnHumFj
+KAhs/NcxXAfNYJOYWyftNVtiMPfLxf6s4xkVvw51UJOKLfYVYxHG2yw5a4Z5+7TZ
+WQdR/6mBzKSLY80xx98786YBwvm0n06B/kDxT+87ROutA9yJVAAHE8an2IiXKZwq
+J61xMEXFuWD6Xd0UjoHPVt0Y5cJQa5wGgBsydewkxwcjM/d+1QT59bqxRTTbvuSI
+VkGqFeXCYGbwIOgo1bJ9Gxaeyl24eJTcXiTtH6mkUij9GUOm1h9yUANHLdrkX1pp
+yaozD+gs7lUJlqVxym1jdgRkitXgcKwD8qjHsdW7ll+v54T8IZrLe/ujiOO0zg5e
+9Mg2LypufCv6UkwiMCF2BhcMSOfWwwKJ+sYTsxXtyzswzabZOSS5LzRDM/ID2Nwc
+wFlacxopW7pf6SUgO9zG63nDsE1OcsK9xjjhN7nP6sOvxi3myNV6FkwbiyXOFOkQ
+wfZeXv5Y8AY=
+=yOOA
+-----END PGP SIGNATURE-----

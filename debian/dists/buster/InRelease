@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Date: Mon, 22 Aug 2022 14:03:59 +0000
+Archive: stable
+Codename: buster
+Component: main
+Origin: github.com/nzlosh
+Label: nzlosh Personal Packages Archive
+Architecture: amd64
+SHA256: 3df02e5f5b1f361b0f0d2fcd2287a461870af1129606c5bc1ef25520bd9b62a1 559 main/binary-amd64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEECR3qG2WlRAPBR5P3ILUxCybkMv4FAmMDjNARHG56bG9zaEB5
+YWhvby5jb20ACgkQILUxCybkMv7FBQ//chJptkY8lEAir/losM7kXeDmICpdIyCP
+L1YwUVDiLowaeaynvoPDMjlP+FiIxJztuIDBShc4aASRdLJEVq8v9q0sz6RE4PNx
+oQSZLkAGWDsgPPOybfCRp5FOwkj2UXT2pkP8K8FWEjuRlJjhaytjTqoAFmducgWx
+3SlMOpp/BLBRBsr05kDPFy0q0CwmZx/sD+Z+w8fbDQOxfgWu9MsOxxlZiivg8Fv8
+bdw6h4I1vVqSQbpkk53WIGmp6i02mMCUz9Ty6AJW/M/6cUW1KEnCQaJSB7r/Tg1t
+RtIBb3sABVw7ObgqwspM09Qp7LD5DhdbGKey5sZOGBJu8DPnIyoRNBwUDke+Crkn
+SDKQ42lkaAh8HNuUqS2uWGrCC2ur3hPmdJ5kip/LNqidLF6m4P0+eRBRHF/cFaGv
+0UKLxAJdkH6Ya4g9IO6rwE9m4fN/Q33G+HqnEcnUPCsLHGrMnSuSxfWgXw/ZIlPi
+Ejl0HjhaWWMZlYF8hIWw+TtOLdTgFitBWU+l9wFhRnAuiIN/Nf6BBGg6HV0CJtA1
+32QmLdNDrvF1KOGgG7sXeaxXMjMlGOOVpoghFbepT4zMtrHT6Zvsaz4UrS1F5MVt
+9LxwZ6LEQap4QRlaMSxOYtESitglTDq2m9cXw7uvKzZI3AKVduCjkkDQxT4eBWhS
+vMxWGZAXcRY=
+=0+/4
+-----END PGP SIGNATURE-----

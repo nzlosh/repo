@@ -1,0 +1,80 @@
+#!/bin/bash
+
+# TO DO : Package scan needs to be run on the VM while signing happens outside.
+function scan_packages
+{
+	pushd . >/dev/null
+	DISTRO="$(basename $1)"
+
+	cd "$1/main/binary-amd64"
+	dpkg-scanpackages -a amd64 ../../pool | sed -r "s#../../pool#dists/$DISTRO/pool#g" > Packages
+
+	popd > /dev/null
+}
+
+function check_requirements
+{
+	for i in /usr/bin/sha256sum /usr/bin/dpkg-scanpackages
+	do
+		test -x $i || echo Missing $i
+	done
+}
+
+function create_release
+{
+	pushd . >/dev/null
+
+	DIST_PATH="$1"
+	CODENAME="$(basename $1)"
+	local SHA=
+
+	cd "$DIST_PATH"
+	FILENAME="main/binary-amd64/Packages"
+	if [[ -e "$FILENAME" ]]; then
+		S=$(stat "$FILENAME" --printf %s)
+		SHA=$( sha256sum "$FILENAME" | awk "{print \"SHA256: \"\$1\" $S \"\$2}" )
+		cat <<EOF > Release
+Date: $(date -Ru)
+Archive: stable
+Codename: $CODENAME
+Component: main
+Origin: github.com/nzlosh
+Label: nzlosh Personal Packages Archive
+Architecture: amd64
+$SHA
+EOF
+		for i in Release
+		do
+			gpg --default-key "nzlosh@yahoo.com" -abs -o ${i}.gpg $i
+			gpg --default-key "nzlosh@yahoo.com" --clearsign -o $(dirname $i)/InRelease $i
+		done
+	else
+		echo "Can not find $FILENAME in $DIST_PATH"
+	fi
+
+	popd >/dev/null
+}
+
+
+case "$1" in
+	scan)
+		for i in ubuntu/dists/* debian/dists/*;
+		do
+			scan_packages $i
+		done
+		;;
+	sign)
+		for i in ubuntu/dists/* debian/dists/*;
+		do
+			create_release $i
+			echo
+		done
+		;;
+	*)
+		cat <<EOF
+Usage $0 <scan|sign>
+  scan: run from inside VM to scan for new packages.
+  sign: run from outside VM to sign package indices.
+EOF
+		;;
+esac
