@@ -1,0 +1,8 @@
+Date: Tue, 15 Jul 2025 06:59:42 +0000
+Archive: stable
+Codename: bookworm
+Component: main
+Origin: github.com/nzlosh
+Label: nzlosh Personal Packages Archive
+Architecture: amd64
+SHA256: 5abd3cf4d6d8a70aac8d2465891c89d9439b4853474facff01a29d573d9bb207 563 main/binary-amd64/Packages

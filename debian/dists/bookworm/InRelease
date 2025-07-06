@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Date: Tue, 15 Jul 2025 06:59:42 +0000
+Archive: stable
+Codename: bookworm
+Component: main
+Origin: github.com/nzlosh
+Label: nzlosh Personal Packages Archive
+Architecture: amd64
+SHA256: 5abd3cf4d6d8a70aac8d2465891c89d9439b4853474facff01a29d573d9bb207 563 main/binary-amd64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEECR3qG2WlRAPBR5P3ILUxCybkMv4FAmh1/F4RHG56bG9zaEB5
+YWhvby5jb20ACgkQILUxCybkMv6NeQ/6A2mZgTyE22giRujWphQm85aYHO4oN+Pf
+1gJ8CvOUS2xzMkE0HOxOxyIsZpQLpTAr46Md+S6hWiQCu+GZ9nfS0zpmpJ1/vTs7
+d2EcN6VpYz7nk+h3ioqtYv6EjB6FBAEs9AOIkzi3/hAnG63nvvfw0iEcj23oOhv8
+m5qLJNbIM0K/G3hkmqXm7Z/ieQIzM2sd3mjEptwk/HypJmzp3Rd0YclHjS/OXyAy
+/zcd0b58qnF7zGPVsY10f6KkqzAs90f8MB4F7PeKQEeLxk4XCEry19lw8YkpPHaB
+npFS44KlCA8DEllJKwgTqjkTv4z9v6vkafoTLeORbvofPvhVnLgbMbiAtdhWAHyl
+62MdwoxCXl0ciFZu/Fxgx5jI/0fqwsl9gqCBNXeSOL2zySraH9iD2TMd5VaQNnpi
+DhDjSbSKuqyMMz2VikMepoxGkfnzRAIuwvzEdCZfIzFhSo1nvqAKDIReuTAeD50K
+Pf0ro7HXDmuOYSuGeiOIswnMSFtfg92QGk1wsfAfpVsyVQayG4xY115cMNsfxLjn
+fwxJVY8KAOmOBoRPLGYsVoSodx5FPCtShvFbLZ4Yu/DrNFOuLW9wihRwmIYJhHLW
+Op94yftN37jAQnf0eLsD2Rh3YK0x32X3LE2grNVYaS8rpp9/Gra2+gMg+1LHl/Ae
+4kLgXn2U4W0=
+=kU/C
+-----END PGP SIGNATURE-----

@@ -1,28 +1,28 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Date: Mon, 22 Aug 2022 14:03:58 +0000
+Date: Tue, 15 Jul 2025 06:59:40 +0000
 Archive: stable
 Codename: jammy
 Component: main
 Origin: github.com/nzlosh
 Label: nzlosh Personal Packages Archive
 Architecture: amd64
-SHA256: 3c16dd2ac14ca98fd45536679d65cbd881b45cc833a41e9f2f8f6ce6c71b4bf5 552 main/binary-amd64/Packages
+SHA256: 2d27ae94587d96d99eea6ca18cad090da8dfb6a58438855e2fec6a2388d75940 1104 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQJFBAEBCAAvFiEECR3qG2WlRAPBR5P3ILUxCybkMv4FAmMDjM8RHG56bG9zaEB5
-YWhvby5jb20ACgkQILUxCybkMv6vphAAs04fIkYuaOd/cIiZixJrsXTGvPJMBxqy
-M+OHCgxQ/3WOnWqxlpxKk1s6eWlnGT2sLDaAOaZZtnD8Jbh14hS5qbTPp+8hEt9+
-ESwLupyyxP6Iu+hH/mknJi+V6TEGA7qYz1dLZozompcZYlZVVwBRyKsmfx1YMls8
-ts2Z0w0zFz3j/bZQC7KHzPJoxWRvawSM51XWAoAHLSRSRURrUny07GbzypL+HESr
-2wJ+2EiHbo7Y1Mk3eQcjJSudLRDxODmWI6U7VUD+Dxe5qmC/P37PDRLGOwmcM/MD
-/5CICBmmXqzuMkcGqWnf6iWDu/spNgLPxY8U+0f2AdYIeCf1r+d0TI8cTkwB7Nbf
-vfmz8EngdnQG15HEwDm+lEG9wiTx2DydiJnNqEOAC0WF2J+TqILUJtzK9thAL8H+
-ea+cbqqzac7adTuYUfdsg80L4dOLJt8UMoEnUlJE/w3G/Xfpo1O0aZde4yksBWYC
-MM8pO0IJBUNdPUyYpzYmhketfvHB07u3lWpl9xZvi+BuV8fH+e0gNlYwd+wiaEf0
-kToqhuF+z43Mf0rYqZB545W1hyYcxBFyYO84ImSDEA3RuuyAKTWNoyybX06eoFi8
-xGGR21jyBmH7+ouxN2t4eylE+DbMDaOQTePt1pchMGIeyYsRQqm+LPlGmdGbN6+b
-nE5/cDp80B8=
-=xwWW
+iQJFBAEBCAAvFiEECR3qG2WlRAPBR5P3ILUxCybkMv4FAmh1/F0RHG56bG9zaEB5
+YWhvby5jb20ACgkQILUxCybkMv7NBw//Z+RefA6yoQYHYEgxncmIBDLnd8kDEcOm
+niMTFwG2LGxX1qrC3eYPWsPMnaw9TatExEg6ppptx2y5ZDyzAwQLh7kj7gnM7nFN
+SpkaPh2/5Eti0+q4nLchMhyBfP9qk2W0XjjjatGx2rouTXBvdyqE8h/rAVRkbIol
+UAauSx179xtSpvN5qtpk5tvjWni1DuQXYyJ72aARd9byvCJkjTZAPQtuMAi3tDu/
+Ma3A3/BJWlJ8bbaEf/ztocJ7YvXYjL9y90MyvVfy9FCsj4juSdPzTAga9o2U5rIq
+XfWZi5AN1voRulHCtaV4o/V4R/UoVN9hbHk9gmhrHrI+PASdTm7y5Yn955QQWKsm
+ajhGaYxp5BL4AKKsCTXXmoN1jAH5L9oCJwoO9IQTxkGRI4YN5aZVHmqEnFMurUZH
+ZSuIPgtIeQGMCS/ZeijAFkcfM88BaNN3jPsxtrR25YqmDrQQK61Wx5JikJlK2Ta3
+ReSptJGs3vUJpA+WGtcN6RB9IsO/t/bVqOMqcWfRX/OaU1gn+DgX6AT6pC9Hohwa
+Zgv/l/WeMbGlkXH+LerTzOO/JeQaE9qL4Ioj/Cmb8XxQ9jOUk+tu3RjB2SSPlMaq
+vQIGeqMXIX/0+CnB3j+CDgPxrfzSKDe9nWtL0QFxeSPUUyvsM0VOMbjep6xKfwvB
+jRcZGue+uMk=
+=aqxH
 -----END PGP SIGNATURE-----

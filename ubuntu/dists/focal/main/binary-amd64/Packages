@@ -1,14 +1,30 @@
 Package: err-stackstorm
-Version: 2.2.0+2
+Version: 2.2.0+3
 Architecture: amd64
 Maintainer: Carlos <nzlosh@yahoo.com>
-Installed-Size: 53913
+Installed-Size: 54291
 Depends: python3.8, python3.8-venv
-Filename: dists/focal/pool/err-stackstorm_2.2.0+2_amd64.deb
-Size: 12055008
-MD5sum: e976c17bdad25b9c8c8b5edc86f78454
-SHA1: c9ecd503f758c93e7cba2b58b626a6667c08eb9f
-SHA256: 8a475d35116c4a1ba7acb9e894b2ed0b8cdc1237da9bfcaaaae41d324da9f2f3
+Filename: dists/focal/pool/err-stackstorm_2.2.0+3_amd64.deb
+Size: 12047132
+MD5sum: 83d261cccd675daf0bd9fe1f6e11b44e
+SHA1: 54cb0f9b2cdf499a75e1d84005df445750aa31e2
+SHA256: 28a14ce7459c9941419b62e8d0380a5ce0d9e7940902e93a7a5e38ff2f19fa0f
+Section: unknown
+Priority: extra
+Homepage: https://err-stackstorm.readthedocs.io/en/latest/
+Description: err-stackstorm brings StackStorm ChatOps to Errbot.
+
+Package: err-stackstorm
+Version: 2.3.1+3
+Architecture: amd64
+Maintainer: Carlos <nzlosh@yahoo.com>
+Installed-Size: 68200
+Depends: python3.8, python3.8-venv
+Filename: dists/focal/pool/err-stackstorm_2.3.1+3_amd64.deb
+Size: 14804980
+MD5sum: db1022b1b722f92eda525fb7b4bba7a4
+SHA1: 5edca3aeda6c97e1fc80144f46ab34518021881c
+SHA256: 00f690801b01d7640fd8aa29482c53a714d82019fa5a3a0c63c37f5606bdab50
 Section: unknown
 Priority: extra
 Homepage: https://err-stackstorm.readthedocs.io/en/latest/

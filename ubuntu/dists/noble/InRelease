@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Date: Tue, 15 Jul 2025 06:59:41 +0000
+Archive: stable
+Codename: noble
+Component: main
+Origin: github.com/nzlosh
+Label: nzlosh Personal Packages Archive
+Architecture: amd64
+SHA256: cc9b1ede85668b3355805a37082b70cf35d981a9b26430ef945ba8e088681973 552 main/binary-amd64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEECR3qG2WlRAPBR5P3ILUxCybkMv4FAmh1/F4RHG56bG9zaEB5
+YWhvby5jb20ACgkQILUxCybkMv4UyQ/9Fm6hhaUaS8YvOB1UZg13UedFNAVvtHit
+a/7f2ubHe45d5g25kcnq8sYyeNYgINPlx62a8c3cDyFuF+ik39Ws/IPt4faz/Jxa
+rkemNvD8sjG0sd1HVFJRu1qN0YMBRLXvis9srhtDsQLy03ASssPx5LPZnrYuoYcY
+jWntxpvUZyqhsJKgDEL4pYIRFtJC3zlK3BV8RKnxKYO2FOScddeLwZahmNbG9WvH
+P+WRy2qcFG2RazW7L7xQDqVlJ47qgO6yvRstTFrxmdbNxALiAo1cKzfgPgtW7lWF
+1heAGQ6yinU9/bNIBpVCxu5jdqmriSKyyq3t4VAaq34ljdCJNwK8uJZebjK91gDc
+SEsHc2Pr0Dxjc+ogRVV1FNDa4WxE1NvPrgV73Dy2Cd/3fKcfAI1TXcnM8OJD3Krh
+koXGztOZd+NdHn94XLk1lh3Oj4trGqYQSpbCl2H70D5XTJxDakhRQlmcL9l9+Bwg
+CcsO++0x/N5LtqE6Od26okcKrZCIhct5ySvhA5jquAZwNfzknmE+Xp9dkiJ3J9Di
+i0zJdGK+V+vMR95n637z319Ds+WCSDJRQFf1sGhZL9h4NAXNbvshLmZcMrvJ2iS1
+cd/afeZ11GQIXHUNfA5Uu1eyoE7AQ1B+TrT4NifabuCyeuJVBHzGr8gefZvzhBIs
+XNTyk1vlG4E=
+=LLzB
+-----END PGP SIGNATURE-----

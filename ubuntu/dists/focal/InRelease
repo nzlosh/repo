@@ -1,28 +1,28 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Date: Mon, 22 Aug 2022 14:03:55 +0000
+Date: Tue, 15 Jul 2025 06:59:39 +0000
 Archive: stable
 Codename: focal
 Component: main
 Origin: github.com/nzlosh
 Label: nzlosh Personal Packages Archive
 Architecture: amd64
-SHA256: 1a0136b07c2068ae890f0d2e7ae588494bfbda5e9ccc2ace9a327d6a578a474c 550 main/binary-amd64/Packages
+SHA256: 5d84215acc227c9cd2c9b275e2d08e4d449ee8f0be78630759be074e2e2550b1 1100 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQJFBAEBCAAvFiEECR3qG2WlRAPBR5P3ILUxCybkMv4FAmMDjM4RHG56bG9zaEB5
-YWhvby5jb20ACgkQILUxCybkMv6EiA//UeEZqUSq1o2ocyzV6vGgih0stFUUhXyU
-UK2IMF+gRdroUTnngpnSV//oGEz/qThFSkUzNCq7mOHgIcE7B1aok1lG6E4kHQgA
-pkHjYhzXRcnsCm0iqc/aTI22zs1Y2W/oxT1DziTElRtZ7Kmt+4oY/chJMgiLIiCF
-zWT81P/AlbxjSnqopGVuvGnbZqnMt7x7FewNuO7jDVjghzmIen0GKRpQtlRGEr0S
-g80f1MnilQUtFyEmFLqtV7VTjeqWNv/uDxA7YhXZeCR8oIIjicjalYFOmKeN5sSD
-kvCIRPYzrA+UxnzZnBd7nyra/5VdZbrCoNqEnW9eKrrfi48UHfl8biHSf1kccced
-3FTYjOEv69J+UjAmmJT9+cbVdhzDw2QD9GBALiVl9oASzfhPYu1kwef/+VguvZVo
-DGCqB+IZ6YZZyu5LaYheYb63xZoWY9MLLhiUSpl+K2EpVpvp8OWnNqkPaxoXFmQ0
-E3QB44zAu8PcqfkwtaSB4M24NVtbwqhsvbdrIlp6GVnjlml59XpOQ/Kw6lMOKK/3
-eljy+7xRJ+9f4R2Gb/Nn52Yr9oGAs8poUDJa3HOqh0vo89Fy4IqPAE5Ybr9y58Px
-uoOTlnP0IWm+hNXb4Fru2Tl+oxdWd0+XwgsDJKwitXOLikYLorK98y8JJ+PX7It0
-G+2adpwFMiE=
-=MJn8
+iQJFBAEBCAAvFiEECR3qG2WlRAPBR5P3ILUxCybkMv4FAmh1/FwRHG56bG9zaEB5
+YWhvby5jb20ACgkQILUxCybkMv4fYBAAhg55AAseW10au64gewO+bw8MZ/Cv9ORa
+XfRxI5qr453ZkShqO1umLeT3l864+YpNGLeF+gA9vEuxdAoFnpytROotxnqSIjPX
+QfboZWuzv8snO+FwSZ1OF03ko1mzhFFq3E3kTbvB6EPt0zanSLn73vZTs5wRsdB/
+zJofK+e6K3Lq1pwcomfwrtJauM/XcB8+B9QVIZzb9oazAOSvuLfyfjeNXIJUdn2/
+PZJvjjR02umGX+SWp8MhZ1HzqQA3XVYaTTSHCfB2xgMeXvLp9jKtx7LIWypF6kwC
+zUNukI0qRUOD0csjSCPj03K0OvR8Zzja2BeIAt3Ildu+0t34wN9KhR2jt/QwQUFW
+1pJDjL28nIvxQ0imdv/KkKSdKQdl/793vureTGw6C/hfsQXFem/buCUa8vbRp3Q5
+hiR9rPbkNbXt4HUsv/pfAqxDXdAb283F66oOL2UvvRvFVT99iNGVbHHFa2WJ/wef
+AqKOe78DXOY+UUJ455dkzy7/tf0vttSmZfzzxF8ZrWoAmjFcFLBZeY6ID/YCUa00
+r2RnAh40Hbgid1YiCq4g/Y6xw+dMNRN4TbfvnkJ0/PuE8Y0vwanGk/o8zn17WMDK
+36HamFVE7durIo8B51N5NcD/1XS/3hE6CHSv5oHru2BoZOba9MVPlmQpC5G1Jblm
+T0Db2brsQrE=
+=PrUf
 -----END PGP SIGNATURE-----
