@@ -1,14 +1,15 @@
 #!/bin/bash
+set +x
 
 # TO DO : Package scan needs to be run on the VM while signing happens outside.
 function scan_packages
 {
 	pushd . >/dev/null
 	DISTRO="$(basename $1)"
-
-	cd "$1/main/binary-amd64"
-	dpkg-scanpackages -a amd64 ../../pool | sed -r "s#../../pool#dists/$DISTRO/pool#g" > Packages
-
+	# Move up two directories so Packages output contains the correct path
+	# for the multiple repositories structure hosted in github pages.
+	cd "$1/../.."
+	dpkg-scanpackages --multiversion -a amd64 dists/$DISTRO/pool > "dists/${DISTRO}/main/binary-amd64/Packages"
 	popd > /dev/null
 }
 
@@ -55,8 +56,53 @@ EOF
 	popd >/dev/null
 }
 
+function fetch_packages_from_vm
+{
+	PKG_PATH="err-stackstorm/contrib/packaging/pkg-build"
+	declare DEB=(
+		deb11
+		debian/dists/bullseye/pool
+		deb12
+		debian/dists/bookworm/pool
+		u2004
+		ubuntu/dists/focal/pool
+		u2204
+		ubuntu/dists/jammy/pool
+		u2404
+		ubuntu/dists/noble/pool
+	)
+	for i in $(seq 0 2 ${#DEB[@]})
+	do
+		DISTRO="${DEB[$i]}"
+		REPO_PATH="${DEB[$(($i + 1))]}"
+		if [[ -n "$DISTRO" && -n "$REPO_PATH" ]]; then
+			echo $DISTRO $REPO_PATH
+			scp "${DISTRO}:${PKG_PATH}/err-stackstorm_*_amd64.deb" "./$REPO_PATH"
+		fi
+	done
+
+	declare RPM=(
+		rocky8
+		redhat/rhel/8/x86_64
+		rocky9
+		redhat/rhel/9/x86_64
+	)
+	for i in $(seq 0 2 ${#RPM[@]})
+	do
+		DISTRO="${RPM[$i]}"
+		REPO_PATH="${RPM[$(($i + 1))]}"
+		if [[ -n "$DISTRO" && -n "$REPO_PATH" ]]; then
+			echo $DISTRO $REPO_PATH
+			scp "${DISTRO}:${PKG_PATH}/tmp*/rpmbuild/RPMS/x86_64/err-stackstorm-*.x86_64.rpm" "./$REPO_PATH"
+		fi
+	done
+}
+
 
 case "$1" in
+    fetch)
+		fetch_packages_from_vm
+		;;
 	scan)
 		for i in ubuntu/dists/* debian/dists/*;
 		do
@@ -74,6 +120,7 @@ case "$1" in
 		cat <<EOF
 Usage $0 <scan|sign>
   scan: run from inside VM to scan for new packages.
+  fetch: fetches packages from VMs and copies them to repo directory on local host.
   sign: run from outside VM to sign package indices.
 EOF
 		;;

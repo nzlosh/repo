@@ -1,14 +1,30 @@
 Package: err-stackstorm
-Version: 2.2.0+2
+Version: 2.2.0+3
 Architecture: amd64
 Maintainer: Carlos <nzlosh@yahoo.com>
-Installed-Size: 49451
+Installed-Size: 49831
 Depends: python3.10, python3.10-venv
-Filename: dists/jammy/pool/err-stackstorm_2.2.0+2_amd64.deb
-Size: 10684884
-MD5sum: 729498431deca525a5e96f465d042d2c
-SHA1: 5656e766ded0d831397b494eb9d4dbc0e1181d8c
-SHA256: 7bc7998d89be8a097290ccc1f723f20266aa723a740403b430b58b8726bd13bb
+Filename: dists/jammy/pool/err-stackstorm_2.2.0+3_amd64.deb
+Size: 10689470
+MD5sum: 0f72181fd3ff7453bc96e5aabb73d416
+SHA1: 64877a64e3975cb780ceb1122faeba8c0f72d663
+SHA256: 755a3b945b2691f090ddb94c6ec11521cc5332c04d811e10bb2dc45681956bef
+Section: unknown
+Priority: extra
+Homepage: https://err-stackstorm.readthedocs.io/en/latest/
+Description: err-stackstorm brings StackStorm ChatOps to Errbot.
+
+Package: err-stackstorm
+Version: 2.3.2+1
+Architecture: amd64
+Maintainer: Carlos <nzlosh@yahoo.com>
+Installed-Size: 65639
+Depends: python3.10, python3.10-venv
+Filename: dists/jammy/pool/err-stackstorm_2.3.2+1_amd64.deb
+Size: 13322652
+MD5sum: 41d2c53cec111b6b0093463e329c0949
+SHA1: 609865f3f3a8aa875c0b4ad6d70103ace85f34a5
+SHA256: 51ef493922f1972f1977ed7076122a9097bbfce404d3ab6f434c88e14f05121d
 Section: unknown
 Priority: extra
 Homepage: https://err-stackstorm.readthedocs.io/en/latest/

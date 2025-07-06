@@ -1,14 +1,14 @@
 Package: err-stackstorm
-Version: 2.2.0+2
+Version: 2.2.0+3
 Architecture: amd64
 Maintainer: Carlos <nzlosh@yahoo.com>
-Installed-Size: 51977
+Installed-Size: 51775
 Depends: python3.7, python3.7-venv
-Filename: dists/bionic/pool/err-stackstorm_2.2.0+2_amd64.deb
-Size: 11743304
-MD5sum: af0f0893b0eb21834ab087a5b81ea9bc
-SHA1: fbc49bb8563a1bb3ea8365589168af527f97df78
-SHA256: 6d0fe5d9c5f27a1bcecf11fd4d45296837a206294daa9e0ee4e661160e0347ec
+Filename: dists/bionic/pool/err-stackstorm_2.2.0+3_amd64.deb
+Size: 11643672
+MD5sum: 74c8a0ea3d0338cebf40ebb511024718
+SHA1: 86936f29743892f6fb5f52c7495a56f35f97bbfe
+SHA256: 03a24a808b5103e6c4c6e78a232045d354e7e949db667c112be7715005f255e7
 Section: unknown
 Priority: extra
 Homepage: https://err-stackstorm.readthedocs.io/en/latest/

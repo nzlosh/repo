@@ -1,0 +1,16 @@
+Package: err-stackstorm
+Version: 2.3.2+1
+Architecture: amd64
+Maintainer: Carlos <nzlosh@yahoo.com>
+Installed-Size: 66191
+Depends: python3.12, python3.12-venv
+Filename: dists/noble/pool/err-stackstorm_2.3.2+1_amd64.deb
+Size: 13349624
+MD5sum: 8e901ed62058c30f64fa2497c5be7b95
+SHA1: fb49f44fc098f88a0459907e56fd87a60ee6baf6
+SHA256: de50d11675b5049ad073bf4360f384793668e557658adffaf2a7b9444f2ded44
+Section: unknown
+Priority: extra
+Homepage: https://err-stackstorm.readthedocs.io/en/latest/
+Description: err-stackstorm brings StackStorm ChatOps to Errbot.
+
