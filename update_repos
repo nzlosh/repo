@@ -6,10 +6,8 @@ function scan_packages
 {
 	pushd . >/dev/null
 	DISTRO="$(basename $1)"
-	# Move up two directories so Packages output contains the correct path
-	# for the multiple repositories structure hosted in github pages.
-	cd "$1/../.."
-	dpkg-scanpackages --multiversion -a amd64 dists/$DISTRO/pool > "dists/${DISTRO}/main/binary-amd64/Packages"
+	cd "$1/main/binary-amd64"
+	dpkg-scanpackages --multiversion -a amd64 ../../pool | sed -r "s#../../pool#dists/$DISTRO/pool#g" > Packages
 	popd > /dev/null
 }
 
@@ -58,7 +56,9 @@ EOF
 
 function fetch_packages_from_vm
 {
-	PKG_PATH="err-stackstorm/contrib/packaging/pkg-build"
+	PKG_SRC_PATH="/root/workspace/err-stackstorm/contrib/packaging"
+	PKG_DST_PATH="~/workspace/github.com/nzlosh/repo"
+	
 	declare DEB=(
 		deb11
 		debian/dists/bullseye/pool
@@ -76,8 +76,8 @@ function fetch_packages_from_vm
 		DISTRO="${DEB[$i]}"
 		REPO_PATH="${DEB[$(($i + 1))]}"
 		if [[ -n "$DISTRO" && -n "$REPO_PATH" ]]; then
-			echo $DISTRO $REPO_PATH
-			scp "${DISTRO}:${PKG_PATH}/err-stackstorm_*_amd64.deb" "./$REPO_PATH"
+			echo "$DISTRO" "$REPO_PATH"
+			cp "${DISTRO}${PKG_SRC_PATH}/pkg-build/err-stackstorm_*_amd64.deb" "${PKG_DST_PATH}/${REPO_PATH}"
 		fi
 	done
 
@@ -92,8 +92,8 @@ function fetch_packages_from_vm
 		DISTRO="${RPM[$i]}"
 		REPO_PATH="${RPM[$(($i + 1))]}"
 		if [[ -n "$DISTRO" && -n "$REPO_PATH" ]]; then
-			echo $DISTRO $REPO_PATH
-			scp "${DISTRO}:${PKG_PATH}/tmp*/rpmbuild/RPMS/x86_64/err-stackstorm-*.x86_64.rpm" "./$REPO_PATH"
+			echo "$DISTRO" "$REPO_PATH"
+			cp "${DISTRO}${PKG_SRC_PATH}/pkg-build/tmp*/rpmbuild/RPMS/x86_64/err-stackstorm-*.x86_64.rpm" "${PKG_DST_PATH}/${REPO_PATH}"
 		fi
 	done
 }
